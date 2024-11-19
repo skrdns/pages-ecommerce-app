@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "esnext", // Додаємо підтримку сучасних ES модулів
+    "target": "esnext", // Це дозволяє використовувати нові можливості JavaScript
+    "moduleResolution": "node",
+    "esModuleInterop": true, // Підтримка імпорту ES6 модулів
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
